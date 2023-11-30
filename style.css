@@ -1,0 +1,90 @@
+#mae{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/illustration-mountain-landscape-with-yellow-gradations-can-be-used-as-background_659858-93.jpg?w=900);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 35px;
+}
+
+#cabecalho{
+    width: 20%;
+    height: 20%;
+    color: #143d59;
+}
+
+h3{
+    font-size: 35px;
+}
+
+#cabecalho2{
+    width: 5%;
+    height: 5%;
+    margin-left: 195px;
+    color: #143d59;
+}
+
+#info{
+    width: 20%;
+    height: 20%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline-color: #143d59;
+    color: #143d59;
+}
+
+input{
+    background-color: #f2c52f;
+    outline-color: #f2c52f;
+    color: #143d59;
+    border-radius: 5px;
+}
+
+#cep{
+    border-color: #143d59;
+    margin-bottom: 15px;
+}
+
+#nav{
+    width: 170px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#btn-search{
+    border: none;
+    border-radius: 5px;
+    color: #143d59;
+    cursor: pointer;
+    background-color: #f2c52f;
+    font-size: 16px;
+}
+
+#btn-search:hover{
+    color: cadetblue;
+    transition-duration: 0.2s
+}
+
+#btn-clean{
+    border: none;
+    border-radius: 5px;
+    color: #143d59;
+    cursor: pointer;
+    background-color: #f2c52f;
+    font-size: 16px;
+}
+
+#btn-clean:hover{
+    color: cadetblue;
+    transition-duration: 0.2;
+}

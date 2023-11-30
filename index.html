@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body><div id="mae">
+    
+        <div id="cabecalho">
+            <h2>Busca CEP</h2>
+        </div>
+        <div id="info">
+            <label for="cep"><strong>CEP</strong></label>
+            <input type="text" id="cep" placeholder="digite seu CEP">
+            <label for="logradouro">Endereço</label>
+            <input type="text" id="endereco" placeholder="..." disabled>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" placeholder="..." disabled>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" placeholder="..." disabled>
+            <label for="estado">Estado</label>
+            <input type="text" id="estado" placeholder="..." disabled>
+            <div id="nav">
+                <button id="btn-search" onclick="buttonBuscar()">
+                    <strong>Buscar</strong>
+                </button>
+                <button id="btn-clean" onclick="buttonLimpar()"><strong>Limpar</strong></button>
+            </div>
+        </div>
+        <div id="cabecalho2">
+            <h3>Jp</h3>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
